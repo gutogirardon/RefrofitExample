@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.partnersco.blitaogg.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Coloque o a unidade de medida:"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/edittext_unidade_entrada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Exemplo: km" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Coloque o a unidade de medida:"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/edittext_valor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Exemplo: 34" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Coloque o a unidade que você deseja obter:"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/edittext_unidade_saida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Exemplo: m" />
+
+    <Button
+        android:id="@+id/button_enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:text="Enviar"
+        android:textColor="@android:color/white" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/textview_valorconverter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="34"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textview_unidadeconverter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="km"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" = "
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textview_valorconvertido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="34000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textview_unidadeconvertida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="m"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
